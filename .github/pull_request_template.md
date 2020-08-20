@@ -1,4 +1,4 @@
-### Resolves: [Trello-Card-Link](trello-card-link-goes-here)
+### Resolves: [Name of Trello Card](trello-card-link-goes-here)
 
 #### Implementation details:
 
