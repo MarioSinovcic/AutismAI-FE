@@ -1,4 +1,4 @@
-### Resolves: #{issue_number}
+### Resolves: #{Trello-Card-Link}
 
 #### Implementation details:
 
@@ -8,7 +8,7 @@ e.g., New endpoint created for checking the status of the API
 #### The pull request is complete according to the following criteria:
 
 Git
-  - [ ] Master branch has been merged into this branch
+  - [ ] Pre-master branch has been merged into this branch
 
 Code  
   - [ ] Acceptance criteria must be met
