@@ -1,25 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
-import FrontPage from "../pages/FrontPage";
-import DashboardPage from "../pages/DashboardPage";
-import QuizPage from "../pages/QuizPage";
-import AdminPage from "../pages/AdminPage";
+import Frontpage from "../pages/Frontpage";
 
 // This component allows for easy additions for additional pages
 const paths = {
-  FRONTPAGE: "/",
-  DASHBOARDPAGE: "/dashboard",
-  QUIZPAGE: "/quiz",
-  ADMINPAGE: "/admin"
+  FRONTPAGE: "/"
 };
 
 const routes = (
   <Switch>
-    <Route exact path={paths.FRONTPAGE} component={FrontPage} />
-    <Route exact path={paths.DASHBOARDPAGE} component={DashboardPage} />
-    <Route exact path={paths.QUIZPAGE} component={QuizPage} />
-    <Route exact path={paths.ADMINPAGE} component={AdminPage} />
+    <Route exact path={paths.FRONTPAGE} component={Frontpage} />
   </Switch>
 );
 
